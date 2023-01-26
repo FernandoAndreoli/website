@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/348/162/png-clipart-computer-icons-button-turn-off-ico-miscellaneous-electronics-thumbnail.png">    
+</head>
+<body>
+
+    <!-- DATOS PRINCIPALES -->
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2 class="caja">F <span>D</span> A</h2>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a class="active" href="#main-a">Inicio</a></li>
+                    <li><a href="#about-me">Acerca de mí</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="toggle-menu">
+                    <i class="fas fa-bars" id="toggle_open"></i>
+                    <i class="fas fa-window-close" id="toggle_close"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main" id="main-a">
+            <div class="info-content">
+                <span class="info-content_subtitle">Frontend Developer</span>
+                <h1>Yo soy<span> Fernando D. Andreoli</span></h1>
+                <p class="info-content_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, veritatis. Esse repudiandae tempore soluta odit magni ipsa iure harum, non quod quo omnis dolore blanditiis minus nemo necessitatibus similique eius?</p>
+                <a href="https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf" target="_blank">
+                   <button class="download-cv">Descargar CV</button> 
+                </a>
+            </div>
+    
+            <img src="https://cdn-images.livecareer.es/pages/foto_cv_lc_es_4.jpg" alt="fernandoandreoli picture">
+        </main>
+    </div>  
+
+    <!-- SOBRE MI -->
+    <div class="about" id="about-me">
+        <img src="https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543288/samples/about_grtker.png" alt="">
+
+        <div class="about-info">
+            <h2>Acerca de mí</h2>
+            <div class="divider">
+            
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore tempora magnam accusamus porro soluta commodi, animi aperiam laboriosam eaque esse rerum tempore voluptatum, earum possimus, iste explicabo vel? Nostrum.</p>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dicta nihil, quo corrupti sint, id sunt, magnam in eum eius provident sequi! Praesentium, ipsum? Similique ullam nulla voluptatum amet officia?</p>
+
+            <span class="hide" id="hideText">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dicta id eius nam necessitatibus aspernatur quaerat explicabo, voluptatum voluptas beatae et similique, voluptate iure ex molestias consectetur quasi veritatis cumque.</p>
+            </span>
+            <button class="download-cv" id="btn_hideText">Conóceme mas</button>
+        </div>
+    </div>
+    
+    <!--PORTAFOLIO -->
+    <div class="portfolio" id="portafolio">
+        <div class="portfolio-headings">
+            <h2>Mi Portafolio</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container">
+            <div class="cards">
+                <div class="card__img">
+                
+                </div>
+                <div class="card__title">
+                    <h2>Descripción del Proyecto</h2>
+                    <p>Proyecto realizado con html, css y JavaScript</p>
+                </div>
+                <div class="card__projects-links">
+                    <a href="https://fernandoandreoli.github.io/calculadora/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                  <!--   <a href="">
+                        <i class="fas fa-globe"></i>
+                    </a> -->
+
+                    <a href="https://github.com/FernandoAndreoli/calculadora" target="_blank">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="project-details-content">
+                    <button class="project-details-button">
+                        <a href="">
+                            Calculadora
+                        </a>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="cards">
+                <div class="card__img">
+                
+                </div>
+                <div class="card__title">
+                    <h2>Descripción del Proyecto</h2>
+                    <p>Proyecto realizado con html, css, JavaScript y Sweet Alert.</p>
+
+                        Controles: flechas hacia arriba, abajo, derecha, izquierda.
+                </div>
+                <div class="card__projects-links">
+                    <a href="https://fernandoandreoli.github.io/Snake/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                   <!--  <a href="">
+                        <i class="fas fa-globe"></i>
+                    </a>
+ -->
+                    <a href="https://github.com/FernandoAndreoli/Snake" target="_blank">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="project-details-content">
+                    <button class="project-details-button">
+                        <a href="">
+                        Juego Snake
+                        </a>
+                    </button>
+                </div> 
+            </div>
+          
+            <div class="cards">
+                <div class="card__img">
+                
+                </div>
+                <div class="card__title">
+                    <h2>Descripción del Proyecto</h2>
+                    <p>Proyecto realizado con hmtl y JavaScript en colaboración</p>
+                    Controles: teclas W, A, S, D
+                </div>
+                <div class="card__projects-links">
+                    <a href="https://fernandoandreoli.github.io/tetris/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <!-- <a href="">
+                        <i class="fas fa-globe"></i>
+                    </a> -->
+
+                    <a href="https://github.com/FernandoAndreoli/tetris" target="_blank">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="project-details-content">
+                    <button class="project-details-button">
+                        <a href="">
+                        Juego Tetris
+                        </a>
+                    </button>
+                </div> 
+            </div>
+
+        </div>
+    </div>
+
+<!--  CONTACTO --> 
+   <div class="contact-section" id="contacto">
+        <div class="contact-headings">
+          <h2>Mantente en Contacto</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+       <img class="contact-img" src="https://cdn-images.livecareer.es/pages/foto_cv_lc_es_4.jpg" alt="fernando andreoli picture">
+          <div class="contact-form">
+            <h4>Envia un mensaje...</h4>
+            <form class="form-group" id="formulario">
+              <input type="text" name="" id="id_nombre" placeholder="Nombre" class="input">
+              <input type="email" name="" id="id_email" placeholder="E-mail" class="input">
+              <textarea name="message" placeholder="Coloca tu mensaje aquí..."></textarea>
+              <button type="submit" class="btn-submit">Enviar Mensaje</button>
+              <p class="warnings" id="warnings"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+       <!-- Boton hacia arriba -->
+       <div class="go-top-container">
+            <div class="go-top-button">
+                <i class="fas fa-solid fa-arrow-up"></i>
+           </div>
+        </div>
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>

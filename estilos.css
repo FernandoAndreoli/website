@@ -1,0 +1,456 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+body{
+    overflow-x: hidden;
+}
+ */
+.wrapper
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #174c29;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.brand span {
+    color: #000;
+}
+
+.caja { 
+    color: #ffffff; 
+    font-size: 37px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #7e8cb0; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #24386d;
+    text-transform: uppercase;
+}
+    
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu .active {
+    color: #7c8499;   
+}
+
+.menu a:hover{
+    background-color: rgba(70, 121, 70, 0.15);
+    color: #000;
+    transition: ease-in .45s;
+    border-radius: 2em;
+}
+
+.toggle-menu,
+.info-content_subtitle {
+    display: none;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: clamp(3vw, 1em, 2em);
+}
+
+span {
+    color: #000;
+}
+
+.download-cv,
+.project-details-button {
+    padding: 10px 20px;
+    background-color: #7680cc;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(10, 100, 150, .69);
+}
+
+.download-cv:hover,
+.project-details-button:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.hide{
+    display: none;
+}
+
+.main img{
+    width: 420px;
+    border: 7px solid #24386d;
+    height: 420px;
+    margin-left: 10em;
+    margin-top: 1em;
+    min-height: 300px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    max-width: 100%;
+}
+
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.about-info h2{
+    font-size: 2em;
+    color: #14155c;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color:rgba(10, 100, 150, .69);
+    margin-top: 5px;
+    margin-bottom: 1.5em;
+}
+
+.about p {
+    margin-bottom: 1em;
+}
+
+.portfolio{
+    width:  100vw;
+    background-color: #174c29;
+    color: #fff;
+}
+
+.portfolio-headings{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio-headings h2{
+    font-size: 2.5em;
+}
+
+.portfolio .container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards{
+    width: 450px;
+    background-color: #a072a0;
+    margin: 1em;
+}
+
+.card__img{
+    width: 100%;
+    height: 90px; 
+    background-image: url(https://i.blogs.es/543408/cursos-gratis-programacion-principiantes-3-/840_560.jpg);
+    background-size: cover;
+}
+
+.card__title{
+    padding: 20px;
+    color:  #000;
+}
+
+.card__projects-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card__projects-links a{
+    text-decoration: none;
+    color: #000;
+}
+
+.card__projects-links i{
+    font-size: 1.5em;
+}
+
+.cards .project-details{
+    margin: 1em;
+    margin: 0 auto;
+}
+
+.cards .project-details-button a{
+    text-decoration:  none;
+    color: #0d0c0c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.project-details-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.contact-section{
+    padding: 3em;
+}
+
+.contact-headings h2{
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+.container-contact{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.container-contact img{
+    width: 550px;
+    height: 500px;
+    bottom: 0px;
+    margin-right: 10em;
+    margin-top: 3em;
+    opacity: 0.5;
+    border-radius: 10px;
+    }
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 1.5em;
+}
+
+.form-group input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.form-group textarea{
+    height: 150px;
+    width: 410px;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+    color:#000;
+    padding: 1.5em;
+    /* border: 1px solid #14155c; */
+}
+    
+.btn-submit {
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 0.3em;
+    text-transform: uppercase;
+    background-color: #aeafe2;
+    cursor: pointer;
+    font-weight: bold;    
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+.go-top-container{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 4.6rem;
+    height: 4.6rem;
+    z-index: -1;
+}
+
+.go-top-button{
+    width: 0rem;
+    height: 0rem;
+    background: #2071b2;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.go-top-button i{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: .2s;
+}
+
+.show{
+    z-index: 10;
+    display: block;
+}
+
+.show .go-top-button{
+    animation: popup 3s ease-in-out;
+    width: 4rem;
+    height: 4rem;
+    z-index: 11;
+}
+
+.show i{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup{
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        width: 4rem;
+        height: 4rem;
+    }
+    100%{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+/*Estilos Validacion */
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #7f4482;
+    padding-top: 20px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 800px){
+
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: #517654;
+        z-index: 1;
+        transform: translateX(-120%);
+        transition: all .5 ease-in-out;
+        opacity: .8;
+    }
+
+    .show-menu{
+        transform: translateX(0%);
+        transition: all .5 ease-in-out;
+    }
+
+    .menu li{
+        margin:  1em;
+    }
+
+    .toggle-menu{
+        display: block;
+    }
+
+    .fa-bars{
+        font-size: 2em;
+        margin-top: -.4em;
+    }
+
+    .toggle-menu .fa-window-close{
+        font-size: 2em;
+        display: none;
+    }
+    
+    .main, .about {
+        display: flex;
+        flex-direction: column-reverse;
+     }    
+
+    .main img{
+        width: min(80%, 420px);
+        height: auto;
+    }
+    
+    .info-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-content_p{
+        display: none;
+    }
+
+    .info-content_subtitle{
+        display: block;
+        margin-bottom: .5em;
+        text-transform: uppercase;
+        background-color: #14155c;
+        color: #fff ;
+        margin-top: .5em;
+    }
+
+    .download-cv, .contact-img {
+        display: none;
+    }
+}

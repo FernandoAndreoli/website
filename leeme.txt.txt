@@ -1,0 +1,12 @@
+Portafolio
+----------
+
+El Inicio tendría una breve descripción de aptitudes y habilidades en donde va el lorem. Posee el link de descarga de CV y navbar posee un ancla para poder ir a cada sección del proyecto.
+
+En Acerca de mí, van datos personales y agregar mas aptitudes junto a competencias. 
+
+En los Proyectos, cliqueando sobre los iconos de gitHub o del código, se pueden acceder a los mismos para ver el proyecto final y como fue planteado.
+
+El Mantente en Contacto, posee una validación en sus campos para enviar un mensaje hacia mi persona aunque todavia no esta conectado con un back.
+
+En la versión responsiva, se ocultaron algunas cosas para que se vea bien en móviles.
